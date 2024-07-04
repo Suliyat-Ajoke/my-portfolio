@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section1 {
+    background-color: #212121;
+    padding: 3rem 4rem;
+
+}
+
+.text1 {
+    font-family: "Rowdies", sans-serif;
+    font-size: 5.4em;
+    font-weight: 400;
+    line-height: 127.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.text2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 84.8px;
+    text-align: center;
+    color: rgb(154, 145, 132);
+}
+
+.divbut {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    font-family: 'Cabin', sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #E8E6E3;
+    background-color: #212121;
+    border: 1px solid transparent;
+    padding: 1em 5em;
+    margin-top: 1em;
+    border-color: #28a745;
+}
+.button:hover{
+    background-color: #28a745;
+}
+
+.section2 {
+    background-color: #212121;
+    padding: 2rem 4rem;
+}
+
+.text3 {
+    font-family: "PT Serif Caption", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 63.6px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text4 {
+    font-family: "PT Serif Caption", serif;
+    font-size: px;
+    font-weight: 400;
+    line-height: 55.8px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 3px solid #44D241;
+    padding: 2rem;
+}
+
+.section3 {
+    background-color: #212121;
+    padding: 2rem 4rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotext {
+    font-family: "PT Serif Caption", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47.7px;
+    /* text-align: center; */
+    color: #000000;
+}
+
+.image {
+    width: 55px;
+    height: 55px;
+    top: 2512px;
+    left: 241px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.div2 {
+    width: 386.16px;
+    height: 141.72px;
+    top: 2905.28px;
+    left: 531.26px;
+    gap: 0px;
+    opacity: 0px;
+    color: #F1F1F1;
+    border: px4 solid #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 {
+    background-color: #212121;
+    padding: 2rem 4rem;
+}
+
+.text5 {
+    font-family: Roboto Slab;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.3px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.project1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 500;
+line-height: 42.19px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 5rem;
+
+
+}
+.prjtext{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+
+}
+.img{
+    width: 40rem;
+    height: 20rem;
+}
+/* .div1{
+    width: 30%;
+}
+.div3{
+    width: 70%;
+}
+.allproject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.contact1{
+    font-family: PT Serif;
+font-size: 36px;
+font-weight: 400;
+line-height: 47.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.contact2{
+    font-family: Pridi;
+font-size: 36px;
+font-weight: 400;
+line-height: 55.8px;
+text-align: center;
+color: #FFFFFF;
+}
+.section5{
+    background-color: #212121;
+    padding: 2rem 4rem;
+}
+@media (max-width: 1300px){
+    .div2 {
+        width: 270px;
+        height: 120px;
+    }
+}
+@media (max-width: 1100px){
+    .img{
+        width: 25rem;
+        height: 18rem;
+    }
+    .div2 {
+        width: 210px;
+        height: 120px;
+    }
+    .project1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .div1{
+        margin-bottom: 2rem;
+    }
+    .text1{
+        font-size: 3.5em;
+    }
+}
+@media (max-width: 800px){
+    .img{
+        width: 20rem;
+        height: 18rem;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .div2{
+        width: 180px;
+        height: 120px;
+    }
+    .text1{
+        font-size: 3em;
+        line-height: 87px;
+    }
+    .text3{
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 800px){
+    .img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .contact1{
+        font-size: 30px;
+    }
+    .contact2{
+        font-size: 30px;
+    }
+    .text5{
+        font-size: 30px;
+    }
+
+}
